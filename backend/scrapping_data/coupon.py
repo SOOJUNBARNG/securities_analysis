@@ -5,21 +5,13 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 
 commodity_url_list = [
-    "https://kr.investing.com/commodities/copper"
-    , "https://kr.investing.com/commodities/aluminum"
-    , "https://kr.investing.com/commodities/crude-oil"
-    , "https://kr.investing.com/commodities/us-corn"
-    , "https://kr.investing.com/commodities/lean-hogs"
-    , "https://kr.investing.com/commodities/gold"
+    "https://kr.investing.com/rates-bonds/us-2-yr-t-note"
+    , "https://kr.investing.com/rates-bonds/us-10-yr-t-note"
 ]
 
 product_name_list = [
-    "Copper"
-    ,"Aluminum"
-    ,"Crude-oil"
-    ,"Corn"
-    ,"Pig-meat"
-    ,"gold"
+    "2-year"
+    , "10-year"
 ]
 
 # Get the current date and time
