@@ -14,10 +14,20 @@ https://ordo.tistory.com/103
 https://ordo.tistory.com/57
 
 
-
-
 【Pythonで統計入門】最尤推定/MAP推定を使って曲線フィッティングをやってみた
 https://qiita.com/holygo/items/e2774a5a891700c3916a
 
 # 挑戦する、Kaggleリンク
 https://www.kaggle.com/competitions
+
+# Kaggleのコンペに勝つためには
+https://note.com/green_midori/n/n544ce668ec9d
+https://brunch.co.kr/@minwoo/19
+
+# Kaggleの意義
+https://gaishishukatsu.com/archives/171921
+https://estyle.co.jp/media/beginner/2254/
+
+
+# Stock price how_
+https://www.analyticsvidhya.com/blog/2021/10/machine-learning-for-stock-market-prediction-with-step-by-step-implementation/
