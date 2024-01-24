@@ -1,3 +1,7 @@
+
+# https://injo.tistory.com/49
+
+
 # 必要なライブラリのインポート
 import lightgbm as lgb
 from sklearn.model_selection import train_test_split

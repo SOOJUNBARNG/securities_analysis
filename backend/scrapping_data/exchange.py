@@ -6,12 +6,14 @@ from datetime import datetime
 
 commodity_url_list = [
     "https://kr.investing.com/currencies/usd-jpy"
-    , "https://kr.investing.com/currencies/usd-krw"
+    #,"https://jp.investing.com/currencies/usd-krw"
+    , "https://kr.investing.com/currencies/jpy-krw"
 ]
 
 product_name_list = [
     "usd-jpy"
-    , "usd-krw"
+    #,"usd-krw"
+    , "jpy-krw"
 ]
 
 # Get the current date and time
@@ -22,7 +24,7 @@ save_data_dir = r'C:\Users\staff\Documents\YRC\Finance_data\securities_analysis\
 os.makedirs(save_data_dir, exist_ok=True)
 print("Current Working Directory:", os.getcwd())
 
-for i in range(len(commodity_url_list)):
+for i in range(len(commodity_url_list)):    
     url = commodity_url_list[i]
     product_name = product_name_list[i]
 
@@ -37,7 +39,7 @@ for i in range(len(commodity_url_list)):
     daily_range = body.find('dd', {'data-test': 'dailyRange'}).text.strip()
     week_range = body.find('dd', {'data-test': 'weekRange'}).text.strip()
     one_year_return = body.find('dd', {'data-test': 'oneYearReturn'}).text.strip()
-    contract_size = body.find('dd', {'data-test': 'contract_size'}).text.strip()
+    contract_size = ""
 
     with open(f'{save_data_dir}/{product_name}.csv', 'a', newline='', encoding='utf-8') as csvfile:
         # Create a CSV writer object
